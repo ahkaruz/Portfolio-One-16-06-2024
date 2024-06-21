@@ -3,11 +3,13 @@ body {
   font-style: normal;
   margin: 0;
 }
+
 .logo {
   font-size: 40px;
   font-weight: 800;
   color: #181818;
 }
+
 .logo-style {
   color: #fd6e0a;
 }
@@ -17,41 +19,48 @@ nav {
   justify-content: space-between;
   margin: 0 150px;
 }
-nav > ul {
+
+nav>ul {
   display: flex;
   align-items: center;
 }
+
 nav li {
   font-size: 15px;
   list-style: none;
   margin-left: 50px;
 }
 
-nav li > a {
+nav li>a {
   font-weight: bold;
-  text-decoration: none; /* Remove default underline */
+  text-decoration: none;
+  /* Remove default underline */
   color: #474747;
   padding-bottom: 10px;
-  position: relative; /* To position the pseudo-element */
+  position: relative;
+  /* To position the pseudo-element */
 }
 
-nav li > a::after {
+nav li>a::after {
   content: "";
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
-  height: 2px; /* Thickness of the underline */
-  background-color: #fd6e0a; /* Color of the underline */
+  height: 2px;
+  /* Thickness of the underline */
+  background-color: #fd6e0a;
+  /* Color of the underline */
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.3s ease;
 }
 
-nav li > a:hover::after {
+nav li>a:hover::after {
   transform: scaleX(1);
   transform-origin: left;
 }
+
 .btn-primary {
   padding: 10px 25px;
   color: #fff;
@@ -63,6 +72,7 @@ nav li > a:hover::after {
   background: #fd6e0a;
   cursor: pointer;
 }
+
 header {
   background-color: #fff8f3;
   background-image: url(images/developer.png);
@@ -70,6 +80,7 @@ header {
   background-position: 30px;
   background-size: 5%;
 }
+
 .banner {
   margin: 0 0 0 150px;
   display: flex;
@@ -80,20 +91,21 @@ header {
   background-position: bottom right;
   background-size: 47%;
 }
-.banner-content {
-}
+
 .banner-hi {
   font-weight: 600;
   font-size: 35px;
   color: #474747;
   margin: 0;
 }
+
 .banner-name {
   margin-top: 5px;
   margin-bottom: 0px;
   font-weight: 700;
   font-size: 60px;
 }
+
 .banner-quotes {
   font-size: 18px;
   color: #757575;
@@ -101,23 +113,25 @@ header {
   line-height: 30px;
   width: 75%;
 }
+
 .img-dev {
   width: 30%;
   margin-right: 3%;
 }
-.banner-content > .btn-primary {
+
+.banner-content>.btn-primary {
   margin-top: 10px;
   margin-right: 20px;
   padding: 10px 20px;
 }
-.banner-content .download-cv {
-}
+
 .banner-content .contact {
   background: #fff8f3;
   border-radius: 5px;
   border: 1px solid #fd6e0a;
   color: #fd6e0a;
 }
+
 .icon {
-  margin-right: 5px;
+  margin-right: 3px;
 }
