@@ -79,7 +79,6 @@ header {
   background-repeat: no-repeat;
   background-position: 30px;
   background-size: 5%;
-
 }
 
 .banner {
@@ -187,4 +186,8 @@ header {
   /* background-color: #fd6e0a; */
   margin-top: 0;
   margin-bottom: 0;
+}
+
+.what-I-do {
+  margin: 100px 150px;
 }
