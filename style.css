@@ -190,4 +190,9 @@ header {
 
 .what-I-do {
   margin: 100px 150px;
+  
+}
+#what-I-do-description
+{
+  margin: 0 80px;
 }
