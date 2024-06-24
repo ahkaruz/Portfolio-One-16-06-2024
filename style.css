@@ -78,18 +78,22 @@ header {
   background-image: url(images/developer.png);
   background-repeat: no-repeat;
   background-position: 30px;
-  background-size: 5%;
+  background-size: 80px;
 }
 
 .banner {
   margin: 0 0 0 150px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
   background-image: url(images/header_bg.png);
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size: 47%;
+  background-size: 700px;
+}
+
+.banner-content
+{
+  margin-top: 100px;
 }
 
 .banner-hi {
@@ -115,8 +119,8 @@ header {
 }
 
 .img-dev {
-  width: 30%;
-  margin-right: 3%;
+  width: 450px;
+  margin-right: 50px;
 }
 
 .banner-content>.btn-primary {
