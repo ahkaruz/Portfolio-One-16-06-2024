@@ -62,7 +62,7 @@ nav li>a:hover::after {
 }
 
 .btn-primary {
-  padding: 10px 25px;
+  padding: 15px 25px;
   color: #fff;
   font-size: 15px;
   font-style: normal;
@@ -91,8 +91,7 @@ header {
   background-size: 700px;
 }
 
-.banner-content
-{
+.banner-content {
   margin-top: 100px;
 }
 
@@ -126,7 +125,7 @@ header {
 .banner-content>.btn-primary {
   margin-top: 10px;
   margin-right: 20px;
-  padding: 10px 20px;
+
 }
 
 .banner-content .contact {
@@ -231,4 +230,54 @@ header {
   font-weight: 400;
   line-height: 28px;
   margin-bottom: 0px;
+}
+
+.summary-of-resume {
+  margin: 100px 150px;
+}
+
+.summary-of-resume-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-experience,
+.resume-education {
+  width: 500px;
+}
+
+.summary-section-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.summary-title {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 0;
+}
+
+.summary-education-or-experience {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 0;
+  margin-bottom: 25px;
+}
+
+.summary-short-details {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+#btn-cv {
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 3px;
 }
