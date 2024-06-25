@@ -2,6 +2,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   margin: 0;
+
 }
 
 .logo {
@@ -34,11 +35,9 @@ nav li {
 nav li>a {
   font-weight: bold;
   text-decoration: none;
-  /* Remove default underline */
   color: #474747;
   padding-bottom: 10px;
   position: relative;
-  /* To position the pseudo-element */
 }
 
 nav li>a::after {
@@ -48,9 +47,7 @@ nav li>a::after {
   right: 0;
   bottom: 0;
   height: 2px;
-  /* Thickness of the underline */
   background-color: #fd6e0a;
-  /* Color of the underline */
   transform: scaleX(0);
   transform-origin: right;
   transition: transform 0.3s ease;
@@ -62,18 +59,22 @@ nav li>a:hover::after {
 }
 
 .btn-primary {
-  padding: 15px 25px;
+  padding: 12px 20px;
   color: #fff;
   font-size: 15px;
-  font-style: normal;
   font-weight: 600;
   border: 0;
   border-radius: 5px;
   background: #fd6e0a;
   cursor: pointer;
+  transition: background-color 0.4s ease;
 }
 
-header {
+.btn-primary:hover {
+  background-color: #e56308;
+}
+
+s header {
   background-color: #fff8f3;
   background-image: url(images/developer.png);
   background-repeat: no-repeat;
@@ -122,7 +123,7 @@ header {
   margin-right: 50px;
 }
 
-.banner-content>.btn-primary {
+.banner-content .btn-primary {
   margin-top: 10px;
   margin-right: 20px;
 
@@ -133,16 +134,17 @@ header {
   border-radius: 5px;
   border: 1px solid #fd6e0a;
   color: #fd6e0a;
+  transition: background-color 0.4s ease;
 }
 
-.icon {
-  margin-right: 3px;
+.banner-content .contact:hover {
+  background: #e56308;
+  color: #fff8f3;
 }
 
 .about {
   margin: 100px 150px;
   padding: 90px 150px;
-
   border: #FFEBDC solid 5px;
   border-radius: 10px;
   background: #fff8f3;
@@ -274,10 +276,15 @@ header {
   line-height: 28px;
 }
 
-#btn-cv {
+.summary-of-resume .btn-primary {
+  padding: 15px 20px;
   margin: auto;
   margin-top: 50px;
   display: flex;
-  justify-content: center;
-  gap: 3px;
+  gap: 4px;
+}
+
+footer {
+  padding: 130px 150px;
+  background-color: #FFF8F3;
 }
