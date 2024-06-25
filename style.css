@@ -74,7 +74,7 @@ nav li>a:hover::after {
   background-color: #e56308;
 }
 
-s header {
+header {
   background-color: #fff8f3;
   background-image: url(images/developer.png);
   background-repeat: no-repeat;
@@ -147,7 +147,7 @@ s header {
   padding: 90px 150px;
   border: #FFEBDC solid 5px;
   border-radius: 10px;
-  background: #fff8f3;
+  background-color: #fff8f3;
 }
 
 .section-title {
@@ -163,6 +163,7 @@ s header {
   text-align: center;
   font-size: 18px;
   font-weight: 400;
+  line-height: 30px;
 }
 
 .about-info-container {
