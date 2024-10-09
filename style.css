@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-family: "Open Sans";
+}
+
+.btn-primary {
+  background-color: #FD6E0A;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.default-margin {
+  margin: 0 150px;
+}
+
+header {
+  background-color: #FFF8F3;
+  height: 520px;
+  position: relative;
+}
+
+.header-img {
+  width: 60px;
+  position: absolute;
+  left: 40px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav>ul {
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+li {
+  display: inline;
+}
+
+li>a {
+  text-decoration: none;
+}
+
+.btn-container {
+  margin-top: 20px;
+}
+
+.download-cv {
+  margin-right: 10px;
+}
+
+.banner {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner-content {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.banner-name {
+  font-size: 40px;
+}
+
+.banner-quotes {
+  width: 500px;
+}
+
+.banner-img {
+  background-image: url(images/header_bg.png);
+  background-repeat: no-repeat;
+  width: 500px;
+  background-size: 500px;
+  background-position: bottom right;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  right: 0;
+  bottom: 0;
+}
+
+.img-dev {
+  width: 320px;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+
+  .default-margin {
+    margin: 0 10px;
+  }
+
+  .btn-primary {
+    background-color: #FD6E0A;
+    border: none;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 10px;
+  }
+
+  .header-img {
+    display: none;
+  }
+
+  .img-dev {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    border: 2px dotted red;
+  }
+
+  nav>ul {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 70px;
+  }
+
+}
+/* 
+.banner-content{
+  text-align: center;
+}
+
+.banner-name{
+  font-size: 30px;
+}
+
+.banner-quotes {
+  width: 100%;
+} */
