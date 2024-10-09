@@ -1,0 +1,291 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  margin: 0;
+
+}
+
+.logo {
+  font-size: 40px;
+  font-weight: 800;
+  color: #181818;
+}
+
+.logo-style {
+  color: #fd6e0a;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+
+nav>ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  font-size: 15px;
+  list-style: none;
+  margin-left: 50px;
+}
+
+nav li>a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #474747;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+nav li>a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: #fd6e0a;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+nav li>a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.btn-primary {
+  padding: 12px 20px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  border: 0;
+  border-radius: 5px;
+  background: #fd6e0a;
+  cursor: pointer;
+  transition: background-color 0.4s ease;
+}
+
+.btn-primary:hover {
+  background-color: #e56308;
+}
+
+header {
+  background-color: #fff8f3;
+  background-image: url(images/developer.png);
+  background-repeat: no-repeat;
+  background-position: 30px;
+  background-size: 80px;
+}
+
+.banner {
+  margin: 0 0 0 150px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 700px;
+}
+
+.banner-content {
+  margin-top: 100px;
+}
+
+.banner-hi {
+  font-weight: 600;
+  font-size: 35px;
+  color: #474747;
+  margin: 0;
+}
+
+.banner-name {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.banner-quotes {
+  font-size: 18px;
+  color: #757575;
+  font-weight: 400;
+  line-height: 30px;
+  width: 75%;
+}
+
+.img-dev {
+  width: 450px;
+  margin-right: 50px;
+}
+
+.banner-content .btn-primary {
+  margin-top: 10px;
+  margin-right: 20px;
+
+}
+
+.banner-content .contact {
+  background: #fff8f3;
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+  color: #fd6e0a;
+  transition: background-color 0.4s ease;
+}
+
+.banner-content .contact:hover {
+  background: #e56308;
+  color: #fff8f3;
+}
+
+.about {
+  margin: 100px 150px;
+  padding: 90px 150px;
+  border: #FFEBDC solid 5px;
+  border-radius: 10px;
+  background-color: #fff8f3;
+}
+
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.about-info-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-info {
+  text-align: center;
+}
+
+.info-title {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.info-description {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.what-I-do {
+  margin: 100px 150px;
+}
+
+#what-I-do-description {
+  margin: 0 80px;
+}
+
+.skill-container {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills {
+  padding: 30px 0;
+  width: 260px;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-icon {
+  margin-left: 33px;
+  margin-right: 33px;
+}
+
+.skill-title {
+  margin-left: 33px;
+  margin-right: 33px;
+  color: #181818;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.skill-description {
+  margin-left: 33px;
+  margin-right: 33px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 0px;
+}
+
+.summary-of-resume {
+  margin: 100px 150px;
+}
+
+.summary-of-resume-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-experience,
+.resume-education {
+  width: 500px;
+}
+
+.summary-section-title {
+  color: #474747;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.summary-title {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 0;
+}
+
+.summary-education-or-experience {
+  color: #757575;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 0;
+  margin-bottom: 25px;
+}
+
+.summary-short-details {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.summary-of-resume .btn-primary {
+  padding: 15px 20px;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+  gap: 4px;
+}
+
+footer {
+  padding: 130px 150px;
+  background-color: #FFF8F3;
+}
